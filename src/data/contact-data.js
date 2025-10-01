@@ -2,7 +2,7 @@
 export const contactData = {
   contactInfo: {
     email: "contact@company.com",
-    phone: "+1 (555) 123-4567",
+    phone: "+201200074227",
   },
   address: {
     fullAddress:
@@ -25,9 +25,9 @@ export const contactData = {
   ],
   map: {
     embedUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.2628653523487!2d-73.9914506843531!3d40.73592794277592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1694123456789!5m2!1sen!2sus",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.789!2d31.0!3d30.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145855c6d7839427%3A0x8f9ea968a0c7b6cd!2sPharmapack%20Pharmaceutical%20Industries!5e0!3m2!1sen!2seg!4v1694123456789!5m2!1sen!2seg",
     directionsUrl:
-      "https://maps.google.com/?q=123+Business+Avenue,+Suite+450,+New+York,+NY+10001",
+      "https://www.google.com/maps?q=pharmapack+pharmaceutical+Industries+%D8%B4%D8%B1%D9%83%D8%A9+%D9%81%D8%A7%D8%B1%D9%85%D8%A7%D8%A8%D8%A7%D9%83+%D9%84%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A7%D8%AA+%D8%A7%D9%84%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9,+first,+pieces+184+A+-+Postal+12581&ftid=0x145855c6d7839427:0x8f9ea968a0c7b6cd",
   },
   inquiryTypes: [
     "General Question",
