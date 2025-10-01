@@ -47,7 +47,6 @@ const cardVariants = {
   },
 };
 
-// View-only button with no download functionality
 const ViewButton = ({ cert }) => {
   const handleViewClick = (e) => {
     e.stopPropagation();
@@ -56,6 +55,8 @@ const ViewButton = ({ cert }) => {
       alert(`Certificate for ${cert.name} is not available yet.`);
       return;
     }
+
+    window.open(cert.file, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -80,7 +81,6 @@ const ViewButton = ({ cert }) => {
     </motion.button>
   );
 };
-
 export default function CertificatesSection() {
   return (
     <section className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-gray-50/30">
