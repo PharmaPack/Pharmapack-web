@@ -53,6 +53,34 @@ export const clients = [
     logo: "dermacy-logo.png",
     website: "https://dermacylabs.com",
   },
+  {
+    id: 10,
+    name: "StarVille",
+    logo: "starville-logo.png",
+    website: "https://eparkville.com/collections/starville",
+  },
+  {
+    id: 11,
+    name: "EyeFree",
+    logo: "eyefree-logo.png",
+  },
+  {
+    id: 12,
+    name: "SuperKids",
+    logo: "superkids-logo.png",
+    website: "https://eparkville.com/collections/superkids"
+  },
+  {
+    id: 13,
+    name: "Just",
+    logo: "just-logo.png",
+  },
+  {
+    id: 14,
+    name: "Sulfax",
+    logo: "sulfax-logo.png",
+    website: "https://eparkville.com/collections/sulfax"
+  },
 ];
 
 export const sectionContent = {

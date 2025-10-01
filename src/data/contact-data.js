@@ -6,18 +6,17 @@ export const contactData = {
   },
   address: {
     fullAddress:
-      "123 Business Avenue, Suite 450, New York, NY 10001, United States",
+      "Piece 184 A - First Industrial zone - 6th October City - Egypt ",
     formatted: [
-      "123 Business Avenue",
-      "Suite 450",
-      "New York, NY 10001",
-      "United States",
+      "Piece 184 A",
+      "First Industrial zone",
+      "6th October City",
+      "Egypt",
     ],
   },
   officeHours: [
-    { day: "Monday - Friday", hours: "9:00 AM - 6:00 PM" },
-    { day: "Saturday", hours: "10:00 AM - 2:00 PM" },
-    { day: "Sunday", hours: "Closed" },
+    { day: "Sunday - Thursday", hours: "08:00 AM - 05:00 PM" },
+    { day: "Saturday - Sunday", hours: "Closed" },
   ],
   gettingHere: [
     "Subway: 4, 5, 6 trains to Union Square",

@@ -22,8 +22,8 @@ export const whoWeAreContent = {
   descriptionTitleHighlight: "Market Success",
   descriptionParagraphs: [
     "Established in 2003 in the 1st Industrial Zone, 6th of October City, Giza, Egypt, Pharmapack Pharmaceutical Industries has been a trusted leader in toll manufacturing and private label solutions for over 22 years, specializing in pharmaceutical, cosmeceutical, and healthcare product development.",
-    "We partner with over <strong>100 leading brands</strong> across the Middle East, Africa, and beyond, transforming innovative concepts into market-ready products through our expertise in R&D, formulation, manufacturing, and packaging. Our products are distributed through key partners like Multi Pharma, UCP, and local stores in Delta, Alexandria, and Upper Egypt.",
-    "Our <strong>100% GMP-compliant production lines</strong> and certifications (ISO 9001:2015, ISO 14001:2015, ISO 13485:2016, GMP, CE) ensure we deliver safe, effective, and high-quality products to global markets. With a 10,800 m² factory and 7 production lines, we aim to expand to over 10 lines by 2027.",
+    "We partner with over <strong>100 leading brands</strong> across the Middle East, Africa, and beyond, transforming innovative concepts into market-ready products through our expertise in R&D, formulation, manufacturing, and packaging.",
+    "Our <strong>100% GMP-compliant production lines</strong> and certifications (ISO 9001:2015, ISO 14001:2015, ISO 13485:2016, GMP, CE) ensure we deliver safe, effective, and high-quality products to global markets. With two manufacturing facilities covering a total of 10,800 m² and 9 production lines, we aim to expand to over 12 lines by 2027.",
   ],
   stats: [
     {
@@ -47,8 +47,8 @@ export const whoWeAreContent = {
       label: "Hydrogel Patches Annually",
     },
     {
-      number: "5M+",
-      label: "Liters of Purified Water Annually",
+      number: "35M+",
+      label: "Sachets of Purified Water Annually",
     },
   ],
   coreValues: [

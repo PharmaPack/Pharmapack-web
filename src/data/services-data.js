@@ -85,7 +85,7 @@ export const servicesContent = {
     {
       id: 6,
       title: "Private Label & Branding",
-      shortTitle: "Branding",
+      shortTitle: "Private Label",
       description:
         "Helping you build and launch your own brand successfully with guidance on compliance, certifications, market entry, and long-term partnership to scale and grow your product portfolio.",
       image: "/branding.jpg",
@@ -100,7 +100,7 @@ export const servicesContent = {
     {
       id: 7,
       title: "Exporting & Logistics",
-      shortTitle: "Logistics",
+      shortTitle: "Export",
       description:
         "Complete support for domestic and international shipping, handling customs documentation and regulatory requirements, and ensuring secure, on-time delivery through trusted logistics partners worldwide.",
       image: "/logistics.jpg",

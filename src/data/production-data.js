@@ -99,7 +99,7 @@ export const productionContent = {
     },
     {
       id: 8,
-      title: "Sea Water Production Line",
+      title: "Hypertonic Saline Production Line",
       description:
         "Natural sea salt water designed for medical and cosmetic applications.",
       icon: "Waves",
