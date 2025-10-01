@@ -399,11 +399,6 @@ export default function ContactForm() {
                   Getting Here
                 </h4>
               </div>
-              <div className="text-brand-gray font-light space-y-2">
-                {contactData.gettingHere.map((item, index) => (
-                  <p key={index}>• {item}</p>
-                ))}
-              </div>
             </div>
           </motion.div>
         </div>
