@@ -421,7 +421,7 @@ export default function ContactForm() {
               <span className="text-brand-red font-normal">Map</span>
             </h3>
             <p className="text-lg text-brand-gray font-light max-w-2xl mx-auto">
-              Located in the heart of Manhattan, we're easily accessible by all
+              Located in the heart of Cairo, we're easily accessible by all
               forms of transportation.
             </p>
           </motion.div>
