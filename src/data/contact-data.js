@@ -1,7 +1,7 @@
 // contact-data.js
 export const contactData = {
   contactInfo: {
-    email: "contact@company.com",
+    email: "info@pharmpackegypt.com",
     phone: "+201200074227",
   },
   address: {
