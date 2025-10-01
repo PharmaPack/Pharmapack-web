@@ -197,7 +197,7 @@ export default function ContactForm() {
                       </ul>
                     </div>
                     <p className="text-base font-light text-brand-gray">
-                      Your questions matter—let's get them answered!
+                      Your questions matter let's get them answered!
                     </p>
                   </div>
                 </div>
