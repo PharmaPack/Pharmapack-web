@@ -238,7 +238,13 @@ const DetailTabs = ({ product }) => {
 
 // Pharmapack Tab Content
 const PharmapackTab = ({ product }) => {
-  if (!product.pharmapack) return null;
+  if (!product.pharmapack) {
+    return (
+      <div className="text-brand-gray text-center py-12">
+        No pharmapack products available.
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">

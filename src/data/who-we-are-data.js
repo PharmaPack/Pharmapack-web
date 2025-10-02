@@ -85,14 +85,14 @@ export const whoWeAreContent = {
   // Distribution Channels Section Data
   distributionChannels: [
     {
-      name: "Multi Pharma",
+      name: "Ibnsina Pharma",
       description:
         "Leading pharmaceutical distribution network serving major markets across Egypt and the MENA region with comprehensive logistics solutions.",
       icon: Truck,
       regions: ["Egypt", "MENA", "North Africa"],
     },
     {
-      name: "UCP Distribution",
+      name: "PharmaOverseas",
       description:
         "Specialized healthcare product distribution focusing on pharmaceutical and cosmeceutical products with nationwide coverage.",
       icon: Building2,

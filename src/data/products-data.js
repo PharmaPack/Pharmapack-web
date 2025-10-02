@@ -69,14 +69,14 @@ export const collectionsData = [
               "Non-irritating",
               "Multi-purpose use",
             ],
-            pharmapack: {
+            /* pharmapack: {
               image: "pharmapack-sea-salt-water.jpg",
               uniqueFeatures: [
                 "Suitable for wound irrigation",
                 "Safe for cosmetic applications",
                 "Sterile and preservative-free",
               ],
-            },
+            }, */
           },
           {
             id: 4,
@@ -90,14 +90,14 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: ["Non-irritating", "Sterile formula", "Easy application"],
-            pharmapack: {
+           /*  pharmapack: {
               image: "pharmapack-lubricant-gels-medical.jpg",
               uniqueFeatures: [
                 "Optimized for ultrasound exams",
                 "Hypoallergenic formula",
                 "Non-sticky residue",
               ],
-            },
+            }, */
           },
           {
             id: 5,
@@ -136,14 +136,14 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: ["Sterile and sealed", "Quick-drying", "Compact size"],
-            pharmapack: {
+            /* pharmapack: {
               image: "pharmapack-alcohol-swabs.jpg",
               uniqueFeatures: [
                 "Pre-injection skin prep",
                 "High alcohol purity",
                 "Individually wrapped",
               ],
-            },
+            }, */
           },
           {
             id: 7,
@@ -832,14 +832,14 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: ["Kills 99.9% of germs", "Non-sticky", "Travel-friendly"],
-            pharmapack: {
+            /* pharmapack: {
               image: "pharmapack-hand-sanitizers.jpg",
               uniqueFeatures: [
                 "Moisturizing with aloe vera",
                 "Quick-drying formula",
                 "Compact bottle design",
               ],
-            },
+            }, */
           },
           {
             id: 26,
@@ -853,14 +853,14 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: ["Non-irritating", "Long-lasting", "Easy to apply"],
-            pharmapack: {
+            /* pharmapack: {
               image: "pharmapack-lubricant-gel.jpg",
               uniqueFeatures: [
                 "Hypoallergenic formula",
                 "Safe for sensitive skin",
                 "Non-sticky residue",
               ],
-            },
+            }, */
           },
         ],
       },

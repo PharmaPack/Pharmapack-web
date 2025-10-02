@@ -359,7 +359,7 @@ export default function ContactForm() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+            className="grid grid-cols-1 md:grid-cols-2 gap-8"
           >
             <div className="bg-brand-white border border-brand-gray/10 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="flex items-center space-x-3 mb-4">
@@ -392,14 +392,7 @@ export default function ContactForm() {
                 ))}
               </div>
             </div>
-            <div className="bg-brand-white border border-brand-gray/10 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
-              <div className="flex items-center space-x-3 mb-4">
-                <Navigation className="w-6 h-6 text-brand-red" />
-                <h4 className="text-lg font-semibold text-brand-black">
-                  Getting Here
-                </h4>
-              </div>
-            </div>
+            
           </motion.div>
         </div>
       </section>

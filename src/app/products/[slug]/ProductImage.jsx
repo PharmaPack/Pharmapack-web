@@ -22,19 +22,19 @@ export default function ProductImage({ product }) {
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="w-full aspect-[4/3] sm:aspect-[16/9] lg:aspect-[1950/825] mb-8 sm:mb-12"
+      className="w-full mb-8 sm:mb-12"
     >
-      <div className="w-full h-full bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg sm:shadow-xl border border-gray-100/50 relative">
+      <div className="w-full bg-white rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg sm:shadow-xl border border-gray-100/50 relative">
         {/* Loading placeholder */}
         {isLoading && (
-          <div className="absolute inset-0 flex items-center justify-center bg-gray-100 animate-pulse">
+          <div className="absolute inset-0 flex items-center justify-center bg-white animate-pulse">
             <div className="w-16 h-16 border-4 border-gray-300 border-t-brand-red rounded-full animate-spin"></div>
           </div>
         )}
 
         {/* Error fallback */}
         {imageError ? (
-          <div className="w-full h-full flex flex-col items-center justify-center text-gray-400 bg-gray-50">
+          <div className="w-full flex flex-col items-center justify-center text-gray-400 bg-white py-16">
             <svg
               className="w-16 h-16 mb-4"
               fill="none"
@@ -57,7 +57,7 @@ export default function ProductImage({ product }) {
             alt={product.name}
             width={1850}
             height={825}
-            className={`w-full h-full object-contain hover:scale-105 transition-transform duration-700 ${
+            className={`w-full h-auto object-contain transition-transform duration-700 ${
               isLoading ? "opacity-0" : "opacity-100"
             }`}
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 80vw"

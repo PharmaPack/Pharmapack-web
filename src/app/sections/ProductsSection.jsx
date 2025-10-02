@@ -443,19 +443,19 @@ function ProductRow({ product, index, activeTab }) {
         {/* Image */}
         <motion.div
           variants={imageVariants}
-          className={`relative h-64 sm:h-80 lg:h-96 overflow-hidden rounded-lg ${
+          className={`relative overflow-hidden rounded-lg bg-white ${
             isReverse ? "lg:col-start-2" : ""
           }`}
         >
           <Image
             src={`/products/index-products/${product.indexImage}`}
             alt={product.name || product.title}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-105"
-            sizes="(max-width: 1024px) 100vw, 50vw"
+            width={1200}
+            height={900}
+            className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.02]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+          
           {/* Overlay Badge */}
           <motion.div
             className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
