@@ -209,10 +209,7 @@ export const collectionsData = [
             privateLabeling: [
               {
                 clientName: "Temp",
-                image: [
-                  "privatelabeling-fever-cooling-patches-Temp-1.jpg",
-                  "privatelabeling-fever-cooling-patches-Temp-2.jpg",
-                ],
+                image: "privatelabeling-fever-cooling-patches-Temp-1.jpg",
                 uniqueFeatures: [
                   "Custom packaging design",
                   "Branded cooling gel",
@@ -498,10 +495,10 @@ export const collectionsData = [
             },
             privateLabeling: [
               {
-                clientName: "StarVille",
+                clientName: "Starville",
                 image: [
-                  "privatelabeling-makeup-remover-wipes-StraVille-1.jpg",
-                  "privatelabeling-makeup-remover-wipes-StraVille-2.jpg",
+                  "privatelabeling-makeup-remover-wipes-Starville-1.jpg",
+                  "privatelabeling-makeup-remover-wipes-Starville-2.jpg",
                 ],
                 uniqueFeatures: [
                   "Custom micellar formula",
@@ -511,7 +508,7 @@ export const collectionsData = [
               },
               {
                 clientName: "WipeIt",
-                image: "privatelabeling-makeup-remover-wipes-WipeIt-1.jpg",
+                image: "privatelabeling-makeup-remover-wipes-Wipeit-1.jpg",
                 uniqueFeatures: [
                   "Custom biodegradable fabric",
                   "Branded retail packaging",
@@ -559,8 +556,8 @@ export const collectionsData = [
             },
             privateLabeling: [
               {
-                clientName: "Wipe It",
-                image: "privatelabeling-mosquito-repellent-wipes-WipeIt.jpg",
+                clientName: "WipeIt",
+                image: "privatelabeling-mosquito-repellent-wipes-Wipeit-1.jpg",
                 uniqueFeatures: [
                   "Custom DEET concentration",
                   "Branded packaging",
@@ -761,8 +758,15 @@ export const collectionsData = [
             },
             privateLabeling: [
               {
-                clientName: "Mother Naked",
-                image: "privatelabeling-face-sheet-masks-MotherNaked-1.jpg",
+                clientName: "MotherNaked",
+                image: [
+                  "privatelabeling-face-sheet-masks-MotherNaked-1.jpg",
+                  "privatelabeling-face-sheet-masks-MotherNaked-2.jpg",
+                  "privatelabeling-face-sheet-masks-MotherNaked-3.jpg",
+                  "privatelabeling-face-sheet-masks-MotherNaked-4.jpg",
+                  "privatelabeling-face-sheet-masks-MotherNaked-5.jpg",
+                  "privatelabeling-face-sheet-masks-MotherNaked-6.jpg"
+                ],
                 uniqueFeatures: [
                   "Custom hyaluronic acid formula",
                   "Branded eco-packaging",
