@@ -48,7 +48,7 @@ const footerData = {
   ],
   production: {
     name: "Soft Solutions Production",
-    href: "https://pharmapack-production.com",
+    href: "https://www.instagram.com/softsolutions.eg/",
   },
   copyright: "© 2025 Pharmapack. All rights reserved.",
 };
