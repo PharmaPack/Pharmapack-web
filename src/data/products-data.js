@@ -19,7 +19,7 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: [
-              "Sterile and safe",
+              "Antibacterial Purity and Safe Hydration",
               "Meets USP standards",
               "Convenient packaging",
             ],
@@ -43,7 +43,7 @@ export const collectionsData = [
               { spec: "Size", value: "10x10 cm" },
               { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["Sterile packaging", "Non-adherent", "Promotes healing"],
+            features: ["Soothing Protection", "Non-adherent", "Promotes healing"],
             pharmapack: {
               image: "pharmapack-paraffin-gauze-dressings.jpg",
               uniqueFeatures: [
@@ -169,6 +169,32 @@ export const collectionsData = [
                 "Latex-free ear loops",
               ],
             },
+          },
+          {
+          id: 8,
+          slug: "massage-cream",
+          name: "Massage Cream",
+          category: "medical",
+          indexImage: "massage-cream.jpg",
+          keySpecifications: [
+            { spec: "Volume", value: "500ml" },
+            { spec: "Purity", value: "99.9%" },
+            { spec: "Shelf Life", value: "2 years" },
+          ],
+          features: [
+            "Provides smooth and gentle glide for therapeutic massage",
+            "Non-greasy, easily absorbed formula",
+            "Suitable for all skin types",
+            "Contains moisturizing agents for skin nourishment",
+          ],
+          pharmapack: {
+            image: "pharmapack-massage-cream.jpg",
+            uniqueFeatures: [
+              "Dermatologically tested for medical and therapeutic use",
+              "Ideal for physiotherapy and muscle relaxation treatments",
+              "Safe for sensitive and baby skin applications",
+            ],
+          },
           },
         ],
       },
