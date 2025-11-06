@@ -32,7 +32,7 @@ export const clients = [
   {
     id: 6,
     name: "Mothernaked",
-    logo: "Mothernaked-logo.webp",
+    logo: "mothernaked-logo.png",
     website: "https://mothernaked.com",
   },
   {

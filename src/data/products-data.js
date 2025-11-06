@@ -14,9 +14,9 @@ export const collectionsData = [
             category: "medical",
             indexImage: "purified-water.jpg",
             keySpecifications: [
-              { spec: "Volume", value: "500ml" },
+              { spec: "Volume", value: "50ml, 200ml" },
               { spec: "Purity", value: "99.9%" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
               "Antibacterial Purity and Safe Hydration",
@@ -40,7 +40,7 @@ export const collectionsData = [
             indexImage: "paraffin-gauze-dressings.jpg",
             keySpecifications: [
               { spec: "Quantity", value: "10 dressings per pack" },
-              { spec: "Size", value: "10x10 cm" },
+              { spec: "Size", value: "10x10 cm, 10x20 cm, 10x30 cm" },
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: ["Soothing Protection", "Non-adherent", "Promotes healing"],
@@ -56,17 +56,16 @@ export const collectionsData = [
           {
             id: 3,
             slug: "sea-salt-water",
-            name: "Sea Salt Water",
+            name: "Sea Salt Nasal Spray",
             category: "medical",
             indexImage: "sea-salt-water.jpg",
             keySpecifications: [
-              { spec: "Volume", value: "250ml" },
               { spec: "Active Ingredient", value: "Sodium Chloride 0.9%" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
-              "Medical-grade saline",
-              "Non-irritating",
+              "Relieves congestion",
+              "Cleanses nasal passages",
               "Multi-purpose use",
             ],
             /* pharmapack: {
@@ -215,8 +214,8 @@ export const collectionsData = [
             category: "therapeutic",
             indexImage: "fever-cooling-patches.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "6 patches per pack" },
-              { spec: "Active Ingredient", value: "Hydrogel" },
+              { spec: "Quantity", value: "4 patches per pack" },
+              { spec: "Active Ingredient", value: "Menthol" },
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
@@ -251,7 +250,7 @@ export const collectionsData = [
                 uniqueFeatures: [
                   "Child-friendly designs",
                   "Extended cooling duration",
-                  "Hypoallergenic materials",
+                  "Made with hypoallergenic materials",
                 ],
               },
             ],
@@ -264,10 +263,12 @@ export const collectionsData = [
             indexImage: "cold-pain-relieving-patches.jpg",
             keySpecifications: [
               { spec: "Quantity", value: "5 patches per pack" },
-              { spec: "Active Ingredient", value: "Menthol 5%" },
+              { spec: "Active Ingredient", value: "Menthol 7%" },
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
+              "Targeted pain relief",
+              "Macromolecule gel patches",
               "Targeted pain relief",
               "Cooling sensation",
               "Flexible material",
@@ -276,7 +277,7 @@ export const collectionsData = [
               image: "pharmapack-cold-pain-relieving-patches.jpg",
               uniqueFeatures: [
                 "Soothes muscle aches",
-                "Non-greasy adhesive",
+                "No sticky residue",
                 "Up to 8 hours of relief",
               ],
             },
@@ -301,7 +302,7 @@ export const collectionsData = [
             indexImage: "hot-cold-pain-relieving-patches.jpg",
             keySpecifications: [
               { spec: "Quantity", value: "4 patches per pack" },
-              { spec: "Material", value: "Non-woven fabric" },
+              { spec: "Active Ingredient", value: "Capsicum and Menthol" },
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
@@ -323,9 +324,9 @@ export const collectionsData = [
                 image:
                   "privatelabeling-hot-cold-pain-relieving-patches-Sulfax-1.jpg",
                 uniqueFeatures: [
-                  "Custom temperature settings",
-                  "Branded reusable packaging",
-                  "Enhanced ergonomic design",
+                  "Dual Action (Cool and hot)",
+                  "Convenient and easy to use",
+                  "Lasts up to 8 hours",
                 ],
               },
             ],
@@ -337,8 +338,8 @@ export const collectionsData = [
             category: "therapeutic",
             indexImage: "period-pain-relieving-patches.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "5 patches per pack" },
-              { spec: "Active Ingredient", value: "Herbal blend" },
+              { spec: "Quantity", value: "3 patches per pack" },
+              { spec: "Active Ingredient", value: "Menthol, Camphor, Wintergreen Oil" },
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: ["Targeted relief", "Comfortable wear", "Non-irritating"],
@@ -381,41 +382,23 @@ export const collectionsData = [
             category: "personal-care",
             indexImage: "baby-wipes.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "72 wipes per pack" },
+              { spec: "Quantity", value: "As requested per pack" },
               { spec: "Material", value: "Non-woven fabric" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["Hypoallergenic", "Fragrance-free", "Soft texture"],
+            features: [
+              "Microbiologically and dermatologically tested",
+              "Suitable for sensitive skin",
+              "Alcohol, paraben, and sulfate free"
+            ],
             pharmapack: {
               image: "pharmapack-baby-wipes.jpg",
               uniqueFeatures: [
-                "Enriched with chamomile",
-                "pH-balanced for baby skin",
-                "Thick and durable",
+                "Enriched with zinc oxide, aloe vera, and vitamin E",
+                "Prolonged moisturizing for your baby's skin",
+                "Soft and thick texture",
               ],
             },
-            privateLabeling: [
-              {
-                clientName: "Pharmachem",
-                image: "privatelabeling-baby-wipes-Pharmachem.jpg",
-                uniqueFeatures: [
-                  "Custom packaging design",
-                  "Branded hypoallergenic formula",
-                  "Eco-friendly materials",
-                ],
-              },
-              {
-                clientName: "Eva",
-                image: "privatelabeling-baby-wipes-Eva.jpg",
-                uniqueFeatures: [
-                  "Enhanced chamomile infusion",
-                  "Premium quality assurance",
-                  "Fast production turnaround",
-                ],
-              },
-              {
-                clientName: "Qualita",
-                image: "privatelabeling-baby-wipes-Qualita.jpg",
                 uniqueFeatures: [
                   "Custom scent options",
                   "Thicker wipe design",
@@ -431,17 +414,17 @@ export const collectionsData = [
             category: "personal-care",
             indexImage: "baby-water-wipes.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "80 wipes per pack" },
+              { spec: "Quantity", value: "As requested per pack" },
               { spec: "Material", value: "Non-woven fabric" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["99% water-based", "Gentle on skin", "Biodegradable"],
+            features: ["99% purified water", "Gentle on skin", "Fragrance-free"],
             pharmapack: {
               image: "pharmapack-baby-water-wipes.jpg",
               uniqueFeatures: [
-                "Minimal ingredients",
+                "Just 2 ingredients",
                 "Safe for newborns",
-                "Eco-friendly packaging",
+                "Contains grapefruit seed extract, acting as a natural skin conditioner",
               ],
             },
             privateLabeling: [
@@ -449,27 +432,21 @@ export const collectionsData = [
                 clientName: "Tay",
                 image: "privatelabeling-baby-water-wipes-Tay-1.jpg",
                 uniqueFeatures: [
-                  "Custom biodegradable fabric",
-                  "Branded minimalist packaging",
-                  "Enhanced purity formula",
+                  "Hypoallergenic formula",
                 ],
               },
               {
                 clientName: "Amazon",
                 image: "privatelabeling-baby-water-wipes-Amazon-1.jpg",
                 uniqueFeatures: [
-                  "Eco-conscious materials",
-                  "Premium quality assurance",
-                  "Fast production turnaround",
+                  "99.9% Purified water",
                 ],
               },
               {
                 clientName: "AmazonA",
                 image: "privatelabeling-baby-water-wipes-AmazonA-1.jpg",
                 uniqueFeatures: [
-                  "Custom water purity levels",
-                  "Branded eco-packaging",
-                  "Hypoallergenic certification",
+                  "Cleansing and moisturizing formula",
                 ],
               },
               {
@@ -479,18 +456,14 @@ export const collectionsData = [
                   "privatelabeling-baby-water-wipes-Penduline-2.jpg",
                 ],
                 uniqueFeatures: [
-                  "Custom wipe thickness",
-                  "Branded newborn-safe formula",
-                  "Sustainable materials",
+                  "Suitable for sensitive skin",
                 ],
               },
               {
                 clientName: "Qualita",
                 image: "privatelabeling-baby-water-wipes-Qualita-1.jpg",
                 uniqueFeatures: [
-                  "Custom eco-friendly packaging",
-                  "Premium softness",
-                  "Fast production turnaround",
+                  "Skin conditioning",
                 ],
               },
             ],
@@ -502,9 +475,9 @@ export const collectionsData = [
             category: "personal-care",
             indexImage: "makeup-remover-wipes.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "25 wipes per pack" },
+              { spec: "Quantity", value: "As requested per pack" },
               { spec: "Material", value: "Biodegradable fabric" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
               "Micellar water infused",
@@ -516,7 +489,7 @@ export const collectionsData = [
               uniqueFeatures: [
                 "Removes waterproof makeup",
                 "Enriched with aloe vera",
-                "Suitable for sensitive skin",
+                "Suitable for all skin types",
               ],
             },
             privateLabeling: [
@@ -536,9 +509,7 @@ export const collectionsData = [
                 clientName: "WipeIt",
                 image: "privatelabeling-makeup-remover-wipes-Wipeit-1.jpg",
                 uniqueFeatures: [
-                  "Custom biodegradable fabric",
-                  "Branded retail packaging",
-                  "Enhanced cleansing power",
+                  "Non-greasy formula",
                 ],
               },
               {
@@ -563,21 +534,21 @@ export const collectionsData = [
             category: "personal-care",
             indexImage: "mosquito-repellent-wipes.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "30 wipes per pack" },
+              { spec: "Quantity", value: "As requested per pack" },
               { spec: "Active Ingredient", value: "DEET 10%" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
               "Long-lasting protection",
               "Non-greasy",
-              "Portable packaging",
+              "Soft on skin, tough on bugs",
             ],
             pharmapack: {
               image: "pharmapack-mosquito-repellent-wipes.jpg",
               uniqueFeatures: [
-                "Safe for family use",
-                "Pleasant scent",
-                "Quick application",
+                "Safe for children use",
+                "Deet free",
+                "Easy and quick to use",
               ],
             },
             privateLabeling: [
@@ -585,9 +556,7 @@ export const collectionsData = [
                 clientName: "WipeIt",
                 image: "privatelabeling-mosquito-repellent-wipes-Wipeit-1.jpg",
                 uniqueFeatures: [
-                  "Custom DEET concentration",
-                  "Branded packaging",
-                  "Enhanced scent profile",
+                  "Deet free wipes",
                 ],
               },
             ],
@@ -599,17 +568,17 @@ export const collectionsData = [
             category: "personal-care",
             indexImage: "nail-polish-remover-wipes.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "40 wipes per pack" },
+              { spec: "Quantity", value: "As requested per pack" },
               { spec: "Material", value: "Non-woven fabric" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
             features: ["Acetone-free", "Moisturizing formula", "Easy to use"],
             pharmapack: {
               image: "pharmapack-nail-polish-remover-wipes.jpg",
               uniqueFeatures: [
-                "Removes glitter polish",
-                "Enriched with vitamin E",
-                "Non-drying formula",
+                "Removes up to 5 fingers",
+                "Enriched with vitamin E and olive oil",
+                "Doesn't cause dehydration to the skin",
               ],
             },
             privateLabeling: [
@@ -618,9 +587,7 @@ export const collectionsData = [
                 image:
                   "privatelabeling-nail-polish-remover-wipes-Ciliver-1.jpg",
                 uniqueFeatures: [
-                  "Custom vitamin E infusion",
-                  "Branded packaging",
-                  "Enhanced glitter removal",
+                  "Rich in natural extracts",
                 ],
               },
             ],
@@ -883,17 +850,17 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: ["Non-irritating", "Long-lasting", "Easy to apply"],
-            /* pharmapack: {
-              image: "pharmapack-lubricant-gel.jpg",
-              uniqueFeatures: [
-                "Hypoallergenic formula",
-                "Safe for sensitive skin",
-                "Non-sticky residue",
-              ],
-            }, */
+            /* 
+              pharmapack: {
+                image: "pharmapack-lubricant-gel.jpg",
+                uniqueFeatures: [
+                  "Hypoallergenic formula",
+                  "Safe for sensitive skin",
+                  "Non-sticky residue"
+                ]
+              }
+            */
           },
         ],
-      },
-    ],
   },
 ];
