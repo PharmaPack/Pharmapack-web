@@ -43,7 +43,11 @@ export const collectionsData = [
               { spec: "Size", value: "10x10 cm, 10x20 cm, 10x30 cm" },
               { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["Soothing Protection", "Non-adherent", "Promotes healing"],
+            features: [
+              "Soothing Protection",
+              "Non-adherent",
+              "Promotes healing",
+            ],
             pharmapack: {
               image: "pharmapack-paraffin-gauze-dressings.jpg",
               uniqueFeatures: [
@@ -89,7 +93,7 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: ["Non-irritating", "Sterile formula", "Easy application"],
-           /*  pharmapack: {
+            /*  pharmapack: {
               image: "pharmapack-lubricant-gels-medical.jpg",
               uniqueFeatures: [
                 "Optimized for ultrasound exams",
@@ -170,30 +174,30 @@ export const collectionsData = [
             },
           },
           {
-          id: 8,
-          slug: "massage-cream",
-          name: "Massage Cream",
-          category: "medical",
-          indexImage: "massage-cream.jpg",
-          keySpecifications: [
-            { spec: "Volume", value: "500ml" },
-            { spec: "Purity", value: "99.9%" },
-            { spec: "Shelf Life", value: "2 years" },
-          ],
-          features: [
-            "Provides smooth and gentle glide for therapeutic massage",
-            "Non-greasy, easily absorbed formula",
-            "Suitable for all skin types",
-            "Contains moisturizing agents for skin nourishment",
-          ],
-          pharmapack: {
-            image: "pharmapack-massage-cream.jpg",
-            uniqueFeatures: [
-              "Dermatologically tested for medical and therapeutic use",
-              "Ideal for physiotherapy and muscle relaxation treatments",
-              "Safe for sensitive and baby skin applications",
+            id: 8,
+            slug: "massage-cream",
+            name: "Massage Cream",
+            category: "medical",
+            indexImage: "massage-cream.jpg",
+            keySpecifications: [
+              { spec: "Volume", value: "500ml" },
+              { spec: "Purity", value: "99.9%" },
+              { spec: "Shelf Life", value: "2 years" },
             ],
-          },
+            features: [
+              "Provides smooth and gentle glide for therapeutic massage",
+              "Non-greasy, easily absorbed formula",
+              "Suitable for all skin types",
+              "Contains moisturizing agents for skin nourishment",
+            ],
+            pharmapack: {
+              image: "pharmapack-massage-cream.jpg",
+              uniqueFeatures: [
+                "Dermatologically tested for medical and therapeutic use",
+                "Ideal for physiotherapy and muscle relaxation treatments",
+                "Safe for sensitive and baby skin applications",
+              ],
+            },
           },
         ],
       },
@@ -339,7 +343,10 @@ export const collectionsData = [
             indexImage: "period-pain-relieving-patches.jpg",
             keySpecifications: [
               { spec: "Quantity", value: "3 patches per pack" },
-              { spec: "Active Ingredient", value: "Menthol, Camphor, Wintergreen Oil" },
+              {
+                spec: "Active Ingredient",
+                value: "Menthol, Camphor, Wintergreen Oil",
+              },
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: ["Targeted relief", "Comfortable wear", "Non-irritating"],
@@ -389,7 +396,7 @@ export const collectionsData = [
             features: [
               "Microbiologically and dermatologically tested",
               "Suitable for sensitive skin",
-              "Alcohol, paraben, and sulfate free"
+              "Alcohol, paraben, and sulfate free",
             ],
             pharmapack: {
               image: "pharmapack-baby-wipes.jpg",
@@ -399,437 +406,416 @@ export const collectionsData = [
                 "Soft and thick texture",
               ],
             },
-                uniqueFeatures: [
-                  "Custom scent options",
-                  "Thicker wipe design",
-                  "Branded retail packaging",
-                ],
-              },
+            uniqueFeatures: [
+              "Custom scent options",
+              "Thicker wipe design",
+              "Branded retail packaging",
+            ],
+          },
+        ],
+      },
+      {
+        id: 16,
+        slug: "baby-water-wipes",
+        name: "Baby Water Wipes",
+        category: "personal-care",
+        indexImage: "baby-water-wipes.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "As requested per pack" },
+          { spec: "Material", value: "Non-woven fabric" },
+          { spec: "Shelf Life", value: "3 years" },
+        ],
+        features: ["99% purified water", "Gentle on skin", "Fragrance-free"],
+        pharmapack: {
+          image: "pharmapack-baby-water-wipes.jpg",
+          uniqueFeatures: [
+            "Just 2 ingredients",
+            "Safe for newborns",
+            "Contains grapefruit seed extract, acting as a natural skin conditioner",
+          ],
+        },
+        privateLabeling: [
+          {
+            clientName: "Tay",
+            image: "privatelabeling-baby-water-wipes-Tay-1.jpg",
+            uniqueFeatures: ["Hypoallergenic formula"],
+          },
+          {
+            clientName: "Amazon",
+            image: "privatelabeling-baby-water-wipes-Amazon-1.jpg",
+            uniqueFeatures: ["99.9% Purified water"],
+          },
+          {
+            clientName: "AmazonA",
+            image: "privatelabeling-baby-water-wipes-AmazonA-1.jpg",
+            uniqueFeatures: ["Cleansing and moisturizing formula"],
+          },
+          {
+            clientName: "Penduline",
+            image: [
+              "privatelabeling-baby-water-wipes-Penduline-1.jpg",
+              "privatelabeling-baby-water-wipes-Penduline-2.jpg",
+            ],
+            uniqueFeatures: ["Suitable for sensitive skin"],
+          },
+          {
+            clientName: "Qualita",
+            image: "privatelabeling-baby-water-wipes-Qualita-1.jpg",
+            uniqueFeatures: ["Skin conditioning"],
+          },
+        ],
+      },
+      {
+        id: 17,
+        slug: "makeup-remover-wipes",
+        name: "Makeup Remover Wipes",
+        category: "personal-care",
+        indexImage: "makeup-remover-wipes.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "As requested per pack" },
+          { spec: "Material", value: "Biodegradable fabric" },
+          { spec: "Shelf Life", value: "3 years" },
+        ],
+        features: ["Micellar water infused", "Non-irritating", "Hydrates skin"],
+        pharmapack: {
+          image: "pharmapack-makeup-remover-wipes.jpg",
+          uniqueFeatures: [
+            "Removes waterproof makeup",
+            "Enriched with aloe vera",
+            "Suitable for all skin types",
+          ],
+        },
+        privateLabeling: [
+          {
+            clientName: "Starville",
+            image: [
+              "privatelabeling-makeup-remover-wipes-Starville-1.jpg",
+              "privatelabeling-makeup-remover-wipes-Starville-2.jpg",
+            ],
+            uniqueFeatures: [
+              "Custom micellar formula",
+              "Branded eco-packaging",
+              "Enhanced hydration",
             ],
           },
           {
-            id: 16,
-            slug: "baby-water-wipes",
-            name: "Baby Water Wipes",
-            category: "personal-care",
-            indexImage: "baby-water-wipes.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "As requested per pack" },
-              { spec: "Material", value: "Non-woven fabric" },
-              { spec: "Shelf Life", value: "3 years" },
+            clientName: "WipeIt",
+            image: "privatelabeling-makeup-remover-wipes-Wipeit-1.jpg",
+            uniqueFeatures: ["Non-greasy formula"],
+          },
+          {
+            clientName: "Eva",
+            image: [
+              "privatelabeling-makeup-remover-wipes-Eva-1.jpg",
+              "privatelabeling-makeup-remover-wipes-Eva-2.jpg",
+              "privatelabeling-makeup-remover-wipes-Eva-3.jpg",
             ],
-            features: ["99% purified water", "Gentle on skin", "Fragrance-free"],
-            pharmapack: {
-              image: "pharmapack-baby-water-wipes.jpg",
-              uniqueFeatures: [
-                "Just 2 ingredients",
-                "Safe for newborns",
-                "Contains grapefruit seed extract, acting as a natural skin conditioner",
-              ],
-            },
-            privateLabeling: [
-              {
-                clientName: "Tay",
-                image: "privatelabeling-baby-water-wipes-Tay-1.jpg",
-                uniqueFeatures: [
-                  "Hypoallergenic formula",
-                ],
-              },
-              {
-                clientName: "Amazon",
-                image: "privatelabeling-baby-water-wipes-Amazon-1.jpg",
-                uniqueFeatures: [
-                  "99.9% Purified water",
-                ],
-              },
-              {
-                clientName: "AmazonA",
-                image: "privatelabeling-baby-water-wipes-AmazonA-1.jpg",
-                uniqueFeatures: [
-                  "Cleansing and moisturizing formula",
-                ],
-              },
-              {
-                clientName: "Penduline",
-                image: [
-                  "privatelabeling-baby-water-wipes-Penduline-1.jpg",
-                  "privatelabeling-baby-water-wipes-Penduline-2.jpg",
-                ],
-                uniqueFeatures: [
-                  "Suitable for sensitive skin",
-                ],
-              },
-              {
-                clientName: "Qualita",
-                image: "privatelabeling-baby-water-wipes-Qualita-1.jpg",
-                uniqueFeatures: [
-                  "Skin conditioning",
-                ],
-              },
+            uniqueFeatures: [
+              "Custom scent options",
+              "Premium softness",
+              "Hypoallergenic formula",
+            ],
+          },
+        ],
+      },
+      {
+        id: 18,
+        slug: "mosquito-repellent-wipes",
+        name: "Mosquito Repellent Wipes",
+        category: "personal-care",
+        indexImage: "mosquito-repellent-wipes.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "As requested per pack" },
+          { spec: "Active Ingredient", value: "DEET 10%" },
+          { spec: "Shelf Life", value: "3 years" },
+        ],
+        features: [
+          "Long-lasting protection",
+          "Non-greasy",
+          "Soft on skin, tough on bugs",
+        ],
+        pharmapack: {
+          image: "pharmapack-mosquito-repellent-wipes.jpg",
+          uniqueFeatures: [
+            "Safe for children use",
+            "Deet free",
+            "Easy and quick to use",
+          ],
+        },
+        privateLabeling: [
+          {
+            clientName: "WipeIt",
+            image: "privatelabeling-mosquito-repellent-wipes-Wipeit-1.jpg",
+            uniqueFeatures: ["Deet free wipes"],
+          },
+        ],
+      },
+      {
+        id: 19,
+        slug: "nail-polish-remover-wipes",
+        name: "Nail Polish Remover Wipes",
+        category: "personal-care",
+        indexImage: "nail-polish-remover-wipes.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "As requested per pack" },
+          { spec: "Material", value: "Non-woven fabric" },
+          { spec: "Shelf Life", value: "3 years" },
+        ],
+        features: ["Acetone-free", "Moisturizing formula", "Easy to use"],
+        pharmapack: {
+          image: "pharmapack-nail-polish-remover-wipes.jpg",
+          uniqueFeatures: [
+            "Removes up to 5 fingers",
+            "Enriched with vitamin E and olive oil",
+            "Doesn't cause dehydration to the skin",
+          ],
+        },
+        privateLabeling: [
+          {
+            clientName: "Ciliver",
+            image: "privatelabeling-nail-polish-remover-wipes-Ciliver-1.jpg",
+            uniqueFeatures: ["Rich in natural extracts"],
+          },
+        ],
+      },
+      {
+        id: 20,
+        slug: "alcohol-wipes",
+        name: "Alcohol Wipes",
+        category: "personal-care",
+        indexImage: "alcohol-wipes.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "50 wipes per pack" },
+          { spec: "Alcohol Content", value: "70% isopropyl" },
+          { spec: "Shelf Life", value: "2 years" },
+        ],
+        features: ["Quick-drying", "Antimicrobial action", "Portable size"],
+        pharmapack: {
+          image: "pharmapack-alcohol-wipes.jpg",
+          uniqueFeatures: [
+            "Sterile for hygiene",
+            "Soft non-woven material",
+            "Resealable packaging",
+          ],
+        },
+      },
+      {
+        id: 21,
+        slug: "antiseptic-wipes",
+        name: "Antiseptic Wipes",
+        category: "personal-care",
+        indexImage: "antiseptic-wipes.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "50 wipes per pack" },
+          {
+            spec: "Active Ingredient",
+            value: "Benzalkonium Chloride 0.13%",
+          },
+          { spec: "Shelf Life", value: "2 years" },
+        ],
+        features: [
+          "Alcohol-free",
+          "Broad-spectrum antimicrobial",
+          "Gentle on skin",
+        ],
+        pharmapack: {
+          image: "pharmapack-antiseptic-wipes.jpg",
+          uniqueFeatures: [
+            "Safe for frequent use",
+            "Non-irritating formula",
+            "Resealable pack",
+          ],
+        },
+        privateLabeling: [
+          {
+            clientName: "Clorox",
+            image: [
+              "privatelabeling-antiseptic-wipes-Clorox-1.jpg",
+              "privatelabeling-antiseptic-wipes-Clorox-2.jpg",
+            ],
+            uniqueFeatures: [
+              "Custom antimicrobial formula",
+              "Branded resealable packaging",
+              "Enhanced skin gentleness",
             ],
           },
           {
-            id: 17,
-            slug: "makeup-remover-wipes",
-            name: "Makeup Remover Wipes",
-            category: "personal-care",
-            indexImage: "makeup-remover-wipes.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "As requested per pack" },
-              { spec: "Material", value: "Biodegradable fabric" },
-              { spec: "Shelf Life", value: "3 years" },
+            clientName: "Qualita",
+            image: [
+              "privatelabeling-antiseptic-wipes-Qualita-1.jpg",
+              "privatelabeling-antiseptic-wipes-Qualita-2.jpg",
+              "privatelabeling-antiseptic-wipes-Qualita-3.jpg",
             ],
-            features: [
-              "Micellar water infused",
-              "Non-irritating",
-              "Hydrates skin",
+            uniqueFeatures: [
+              "Eco-friendly materials",
+              "Premium quality assurance",
+              "Fast production turnaround",
             ],
-            pharmapack: {
-              image: "pharmapack-makeup-remover-wipes.jpg",
-              uniqueFeatures: [
-                "Removes waterproof makeup",
-                "Enriched with aloe vera",
-                "Suitable for all skin types",
-              ],
-            },
-            privateLabeling: [
-              {
-                clientName: "Starville",
-                image: [
-                  "privatelabeling-makeup-remover-wipes-Starville-1.jpg",
-                  "privatelabeling-makeup-remover-wipes-Starville-2.jpg",
-                ],
-                uniqueFeatures: [
-                  "Custom micellar formula",
-                  "Branded eco-packaging",
-                  "Enhanced hydration",
-                ],
-              },
-              {
-                clientName: "WipeIt",
-                image: "privatelabeling-makeup-remover-wipes-Wipeit-1.jpg",
-                uniqueFeatures: [
-                  "Non-greasy formula",
-                ],
-              },
-              {
-                clientName: "Eva",
-                image: [
-                  "privatelabeling-makeup-remover-wipes-Eva-1.jpg",
-                  "privatelabeling-makeup-remover-wipes-Eva-2.jpg",
-                  "privatelabeling-makeup-remover-wipes-Eva-3.jpg",
-                ],
-                uniqueFeatures: [
-                  "Custom scent options",
-                  "Premium softness",
-                  "Hypoallergenic formula",
-                ],
-              },
+          },
+        ],
+      },
+      {
+        id: 22,
+        slug: "hand-and-body-wipes",
+        name: "Hand and Body Wipes",
+        category: "personal-care",
+        indexImage: "hand-and-body-wipes.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "80 wipes per pack" },
+          { spec: "Material", value: "Non-woven fabric" },
+          { spec: "Shelf Life", value: "2 years" },
+        ],
+        features: [
+          "Moisturizing formula",
+          "Large wipe size",
+          "Multi-purpose use",
+        ],
+        pharmapack: {
+          image: "pharmapack-hand-and-body-wipes.jpg",
+          uniqueFeatures: [
+            "Infused with aloe vera",
+            "Gentle for all skin types",
+            "Travel-friendly pack",
+          ],
+        },
+        privateLabeling: [
+          {
+            clientName: "Bemart",
+            image: "privatelabeling-hand-and-body-wipes-Bemart-1.jpg",
+            uniqueFeatures: [
+              "Custom aloe vera infusion",
+              "Branded travel packaging",
+              "Enhanced moisturizing formula",
             ],
           },
           {
-            id: 18,
-            slug: "mosquito-repellent-wipes",
-            name: "Mosquito Repellent Wipes",
-            category: "personal-care",
-            indexImage: "mosquito-repellent-wipes.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "As requested per pack" },
-              { spec: "Active Ingredient", value: "DEET 10%" },
-              { spec: "Shelf Life", value: "3 years" },
+            clientName: "Qualita",
+            image: [
+              "privatelabeling-hand-and-body-wipes-Qualita-1.jpg",
+              "privatelabeling-hand-and-body-wipes-Qualita-2.jpg",
             ],
-            features: [
-              "Long-lasting protection",
-              "Non-greasy",
-              "Soft on skin, tough on bugs",
-            ],
-            pharmapack: {
-              image: "pharmapack-mosquito-repellent-wipes.jpg",
-              uniqueFeatures: [
-                "Safe for children use",
-                "Deet free",
-                "Easy and quick to use",
-              ],
-            },
-            privateLabeling: [
-              {
-                clientName: "WipeIt",
-                image: "privatelabeling-mosquito-repellent-wipes-Wipeit-1.jpg",
-                uniqueFeatures: [
-                  "Deet free wipes",
-                ],
-              },
+            uniqueFeatures: [
+              "Eco-friendly materials",
+              "Premium quality assurance",
+              "Fast production turnaround",
             ],
           },
           {
-            id: 19,
-            slug: "nail-polish-remover-wipes",
-            name: "Nail Polish Remover Wipes",
-            category: "personal-care",
-            indexImage: "nail-polish-remover-wipes.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "As requested per pack" },
-              { spec: "Material", value: "Non-woven fabric" },
-              { spec: "Shelf Life", value: "3 years" },
+            clientName: "Eva",
+            image: "privatelabeling-hand-and-body-wipes-Eva-1.jpg",
+            uniqueFeatures: [
+              "Custom wipe size",
+              "Branded retail packaging",
+              "Enhanced skin hydration",
             ],
-            features: ["Acetone-free", "Moisturizing formula", "Easy to use"],
-            pharmapack: {
-              image: "pharmapack-nail-polish-remover-wipes.jpg",
-              uniqueFeatures: [
-                "Removes up to 5 fingers",
-                "Enriched with vitamin E and olive oil",
-                "Doesn't cause dehydration to the skin",
-              ],
-            },
-            privateLabeling: [
-              {
-                clientName: "Ciliver",
-                image:
-                  "privatelabeling-nail-polish-remover-wipes-Ciliver-1.jpg",
-                uniqueFeatures: [
-                  "Rich in natural extracts",
-                ],
-              },
+          },
+        ],
+      },
+      {
+        id: 23,
+        slug: "face-sheet-masks",
+        name: "Face Sheet Masks",
+        category: "personal-care",
+        indexImage: "face-sheet-masks.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "5 masks per pack" },
+          { spec: "Material", value: "Biodegradable fabric" },
+          { spec: "Shelf Life", value: "2 years" },
+        ],
+        features: [
+          "Hydrating formula",
+          "Fits all face shapes",
+          "Single-use masks",
+        ],
+        pharmapack: {
+          image: "pharmapack-face-sheet-masks.jpg",
+          uniqueFeatures: [
+            "Infused with hyaluronic acid",
+            "Promotes radiant skin",
+            "Eco-friendly materials",
+          ],
+        },
+        privateLabeling: [
+          {
+            clientName: "MotherNaked",
+            image: [
+              "privatelabeling-face-sheet-masks-MotherNaked-1.jpg",
+              "privatelabeling-face-sheet-masks-MotherNaked-2.jpg",
+              "privatelabeling-face-sheet-masks-MotherNaked-3.jpg",
+              "privatelabeling-face-sheet-masks-MotherNaked-4.jpg",
+              "privatelabeling-face-sheet-masks-MotherNaked-5.jpg",
+              "privatelabeling-face-sheet-masks-MotherNaked-6.jpg",
+            ],
+            uniqueFeatures: [
+              "Custom hyaluronic acid formula",
+              "Branded eco-packaging",
+              "Enhanced skin radiance",
             ],
           },
           {
-            id: 20,
-            slug: "alcohol-wipes",
-            name: "Alcohol Wipes",
-            category: "personal-care",
-            indexImage: "alcohol-wipes.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "50 wipes per pack" },
-              { spec: "Alcohol Content", value: "70% isopropyl" },
-              { spec: "Shelf Life", value: "2 years" },
-            ],
-            features: ["Quick-drying", "Antimicrobial action", "Portable size"],
-            pharmapack: {
-              image: "pharmapack-alcohol-wipes.jpg",
-              uniqueFeatures: [
-                "Sterile for hygiene",
-                "Soft non-woven material",
-                "Resealable packaging",
-              ],
-            },
-          },
-          {
-            id: 21,
-            slug: "antiseptic-wipes",
-            name: "Antiseptic Wipes",
-            category: "personal-care",
-            indexImage: "antiseptic-wipes.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "50 wipes per pack" },
-              {
-                spec: "Active Ingredient",
-                value: "Benzalkonium Chloride 0.13%",
-              },
-              { spec: "Shelf Life", value: "2 years" },
-            ],
-            features: [
-              "Alcohol-free",
-              "Broad-spectrum antimicrobial",
-              "Gentle on skin",
-            ],
-            pharmapack: {
-              image: "pharmapack-antiseptic-wipes.jpg",
-              uniqueFeatures: [
-                "Safe for frequent use",
-                "Non-irritating formula",
-                "Resealable pack",
-              ],
-            },
-            privateLabeling: [
-              {
-                clientName: "Clorox",
-                image: [
-                  "privatelabeling-antiseptic-wipes-Clorox-1.jpg",
-                  "privatelabeling-antiseptic-wipes-Clorox-2.jpg",
-                ],
-                uniqueFeatures: [
-                  "Custom antimicrobial formula",
-                  "Branded resealable packaging",
-                  "Enhanced skin gentleness",
-                ],
-              },
-              {
-                clientName: "Qualita",
-                image: [
-                  "privatelabeling-antiseptic-wipes-Qualita-1.jpg",
-                  "privatelabeling-antiseptic-wipes-Qualita-2.jpg",
-                  "privatelabeling-antiseptic-wipes-Qualita-3.jpg",
-                ],
-                uniqueFeatures: [
-                  "Eco-friendly materials",
-                  "Premium quality assurance",
-                  "Fast production turnaround",
-                ],
-              },
+            clientName: "Like",
+            image: "privatelabeling-face-sheet-masks-Like-1.jpg",
+            uniqueFeatures: [
+              "Custom biodegradable fabric",
+              "Premium quality assurance",
+              "Fast production turnaround",
             ],
           },
+        ],
+      },
+      {
+        id: 24,
+        slug: "under-eye-patches",
+        name: "Under-Eye Patches",
+        category: "personal-care",
+        indexImage: "under-eye-patches.jpg",
+        keySpecifications: [
+          { spec: "Quantity", value: "10 pairs per pack" },
+          { spec: "Material", value: "Hydrogel" },
+          { spec: "Shelf Life", value: "2 years" },
+        ],
+        features: [
+          "Reduces puffiness",
+          "Hydrates delicate skin",
+          "Easy to apply",
+        ],
+        pharmapack: {
+          image: "pharmapack-under-eye-patches.jpg",
+          uniqueFeatures: [
+            "Collagen-infused formula",
+            "Targets dark circles",
+            "Non-slip design",
+          ],
+        },
+        privateLabeling: [
           {
-            id: 22,
-            slug: "hand-and-body-wipes",
-            name: "Hand and Body Wipes",
-            category: "personal-care",
-            indexImage: "hand-and-body-wipes.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "80 wipes per pack" },
-              { spec: "Material", value: "Non-woven fabric" },
-              { spec: "Shelf Life", value: "2 years" },
+            clientName: "MotherNaked",
+            image: [
+              "privatelabeling-under-eye-patches-MotherNaked-1.jpg",
+              "privatelabeling-under-eye-patches-MotherNaked-2.jpg",
+              "privatelabeling-under-eye-patches-MotherNaked-3.jpg",
             ],
-            features: [
-              "Moisturizing formula",
-              "Large wipe size",
-              "Multi-purpose use",
-            ],
-            pharmapack: {
-              image: "pharmapack-hand-and-body-wipes.jpg",
-              uniqueFeatures: [
-                "Infused with aloe vera",
-                "Gentle for all skin types",
-                "Travel-friendly pack",
-              ],
-            },
-            privateLabeling: [
-              {
-                clientName: "Bemart",
-                image: "privatelabeling-hand-and-body-wipes-Bemart-1.jpg",
-                uniqueFeatures: [
-                  "Custom aloe vera infusion",
-                  "Branded travel packaging",
-                  "Enhanced moisturizing formula",
-                ],
-              },
-              {
-                clientName: "Qualita",
-                image: [
-                  "privatelabeling-hand-and-body-wipes-Qualita-1.jpg",
-                  "privatelabeling-hand-and-body-wipes-Qualita-2.jpg",
-                ],
-                uniqueFeatures: [
-                  "Eco-friendly materials",
-                  "Premium quality assurance",
-                  "Fast production turnaround",
-                ],
-              },
-              {
-                clientName: "Eva",
-                image: "privatelabeling-hand-and-body-wipes-Eva-1.jpg",
-                uniqueFeatures: [
-                  "Custom wipe size",
-                  "Branded retail packaging",
-                  "Enhanced skin hydration",
-                ],
-              },
+            uniqueFeatures: [
+              "Custom collagen formula",
+              "Branded packaging",
+              "Enhanced anti-puffiness",
             ],
           },
-          {
-            id: 23,
-            slug: "face-sheet-masks",
-            name: "Face Sheet Masks",
-            category: "personal-care",
-            indexImage: "face-sheet-masks.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "5 masks per pack" },
-              { spec: "Material", value: "Biodegradable fabric" },
-              { spec: "Shelf Life", value: "2 years" },
-            ],
-            features: [
-              "Hydrating formula",
-              "Fits all face shapes",
-              "Single-use masks",
-            ],
-            pharmapack: {
-              image: "pharmapack-face-sheet-masks.jpg",
-              uniqueFeatures: [
-                "Infused with hyaluronic acid",
-                "Promotes radiant skin",
-                "Eco-friendly materials",
-              ],
-            },
-            privateLabeling: [
-              {
-                clientName: "MotherNaked",
-                image: [
-                  "privatelabeling-face-sheet-masks-MotherNaked-1.jpg",
-                  "privatelabeling-face-sheet-masks-MotherNaked-2.jpg",
-                  "privatelabeling-face-sheet-masks-MotherNaked-3.jpg",
-                  "privatelabeling-face-sheet-masks-MotherNaked-4.jpg",
-                  "privatelabeling-face-sheet-masks-MotherNaked-5.jpg",
-                  "privatelabeling-face-sheet-masks-MotherNaked-6.jpg"
-                ],
-                uniqueFeatures: [
-                  "Custom hyaluronic acid formula",
-                  "Branded eco-packaging",
-                  "Enhanced skin radiance",
-                ],
-              },
-              {
-                clientName: "Like",
-                image: "privatelabeling-face-sheet-masks-Like-1.jpg",
-                uniqueFeatures: [
-                  "Custom biodegradable fabric",
-                  "Premium quality assurance",
-                  "Fast production turnaround",
-                ],
-              },
-            ],
-          },
-          {
-            id: 24,
-            slug: "under-eye-patches",
-            name: "Under-Eye Patches",
-            category: "personal-care",
-            indexImage: "under-eye-patches.jpg",
-            keySpecifications: [
-              { spec: "Quantity", value: "10 pairs per pack" },
-              { spec: "Material", value: "Hydrogel" },
-              { spec: "Shelf Life", value: "2 years" },
-            ],
-            features: [
-              "Reduces puffiness",
-              "Hydrates delicate skin",
-              "Easy to apply",
-            ],
-            pharmapack: {
-              image: "pharmapack-under-eye-patches.jpg",
-              uniqueFeatures: [
-                "Collagen-infused formula",
-                "Targets dark circles",
-                "Non-slip design",
-              ],
-            },
-            privateLabeling: [
-              {
-                clientName: "MotherNaked",
-                image: [
-                  "privatelabeling-under-eye-patches-MotherNaked-1.jpg",
-                  "privatelabeling-under-eye-patches-MotherNaked-2.jpg",
-                  "privatelabeling-under-eye-patches-MotherNaked-3.jpg",
-                ],
-                uniqueFeatures: [
-                  "Custom collagen formula",
-                  "Branded packaging",
-                  "Enhanced anti-puffiness",
-                ],
-              },
-            ],
-          },
-          {
-            id: 25,
-            slug: "hand-sanitizers",
-            name: "Hand Sanitizers",
-            category: "personal-care",
-            indexImage: "hand-sanitizers.jpg",
-            keySpecifications: [
-              { spec: "Volume", value: "100ml" },
-              { spec: "Alcohol Content", value: "70% ethyl alcohol" },
-              { spec: "Shelf Life", value: "2 years" },
-            ],
-            features: ["Kills 99.9% of germs", "Non-sticky", "Travel-friendly"],
-            /* pharmapack: {
+        ],
+      },
+      {
+        id: 25,
+        slug: "hand-sanitizers",
+        name: "Hand Sanitizers",
+        category: "personal-care",
+        indexImage: "hand-sanitizers.jpg",
+        keySpecifications: [
+          { spec: "Volume", value: "100ml" },
+          { spec: "Alcohol Content", value: "70% ethyl alcohol" },
+          { spec: "Shelf Life", value: "2 years" },
+        ],
+        features: ["Kills 99.9% of germs", "Non-sticky", "Travel-friendly"],
+        /* pharmapack: {
               image: "pharmapack-hand-sanitizers.jpg",
               uniqueFeatures: [
                 "Moisturizing with aloe vera",
@@ -837,20 +823,20 @@ export const collectionsData = [
                 "Compact bottle design",
               ],
             }, */
-          },
-          {
-            id: 26,
-            slug: "lubricant-gel",
-            name: "Lubricant Gel",
-            category: "personal-care",
-            indexImage: "lubricant-gel.jpg",
-            keySpecifications: [
-              { spec: "Volume", value: "100ml" },
-              { spec: "Material", value: "Water-based gel" },
-              { spec: "Shelf Life", value: "2 years" },
-            ],
-            features: ["Non-irritating", "Long-lasting", "Easy to apply"],
-            /* 
+      },
+      {
+        id: 26,
+        slug: "lubricant-gel",
+        name: "Lubricant Gel",
+        category: "personal-care",
+        indexImage: "lubricant-gel.jpg",
+        keySpecifications: [
+          { spec: "Volume", value: "100ml" },
+          { spec: "Material", value: "Water-based gel" },
+          { spec: "Shelf Life", value: "2 years" },
+        ],
+        features: ["Non-irritating", "Long-lasting", "Easy to apply"],
+        /* 
               pharmapack: {
                 image: "pharmapack-lubricant-gel.jpg",
                 uniqueFeatures: [
@@ -860,7 +846,7 @@ export const collectionsData = [
                 ]
               }
             */
-          },
-        ],
+      },
+    ],
   },
 ];

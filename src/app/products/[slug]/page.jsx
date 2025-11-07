@@ -25,7 +25,6 @@ const allProducts = collectionsData
 export default async function ProductDetailPage({ params }) {
   // Await params to ensure it's resolved
   const { slug } = await params;
-  console.log("productSlug:", slug); // Debug
 
   // Normalize slug for comparison
   const normalizedSlug = slug?.toLowerCase().replace(/^\//, "") || "";
@@ -34,11 +33,6 @@ export default async function ProductDetailPage({ params }) {
   );
 
   if (!product) {
-    console.log("Product not found for slug:", normalizedSlug);
-    console.log(
-      "Available slugs:",
-      allProducts.map((p) => p.slug)
-    );
     return <ProductNotFound />;
   }
 

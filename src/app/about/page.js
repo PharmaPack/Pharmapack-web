@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <>
       <WhoWeAreSection />
-     {/* <MeetTheTeam /> */}
+      {/* <MeetTheTeam /> */}
       <OurProcess />
       <VisionMissionSection />
       <DistributionChannelsSection />
