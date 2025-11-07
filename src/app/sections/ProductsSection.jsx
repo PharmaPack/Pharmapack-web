@@ -110,19 +110,28 @@ export default function ProductsSection() {
   const totalProductsCount = collectionsData.reduce(
     (acc, collection) =>
       acc +
-      collection.subcategories.reduce(
-        (subAcc, sub) => subAcc + sub.products.length,
+      (collection.subcategories || []).reduce(
+        (subAcc, sub) =>
+          subAcc +
+          (sub.products && Array.isArray(sub.products)
+            ? sub.products.length
+            : 0),
         0,
       ),
     0,
   );
+
   const collectionTabs = [
     { id: "all", label: "All Products", count: totalProductsCount },
     ...collectionsData.map((collection) => ({
       id: collection.title.toLowerCase().replace(/\s+/g, "-"),
       label: collection.title,
-      count: collection.subcategories.reduce(
-        (acc, sub) => acc + sub.products.length,
+      count: (collection.subcategories || []).reduce(
+        (acc, sub) =>
+          acc +
+          (sub.products && Array.isArray(sub.products)
+            ? sub.products.length
+            : 0),
         0,
       ),
     })),
@@ -133,7 +142,9 @@ export default function ProductsSection() {
     if (activeCollection === "all") {
       return collectionsData.map((collection) => ({
         ...collection,
-        products: collection.subcategories.flatMap((sub) => sub.products),
+        products: (collection.subcategories || []).flatMap(
+          (sub) => sub.products || [],
+        ),
       }));
     }
     const collection = collectionsData.find(
@@ -142,8 +153,8 @@ export default function ProductsSection() {
     );
     if (!collection) return [];
     // Combine all products under the selected collection
-    const combinedProducts = collection.subcategories.flatMap(
-      (sub) => sub.products,
+    const combinedProducts = (collection.subcategories || []).flatMap(
+      (sub) => sub.products || [],
     );
     return [{ ...collection, products: combinedProducts }];
   };
@@ -311,9 +322,9 @@ function TabButton({ tab, isActive, onClick, index, isSubcategory }) {
       <div className="flex flex-col sm:flex-row sm:items-center sm:gap-3 text-left sm:text-center">
         <span
           className={`
-          text-xs sm:text-base font-medium tracking-wide transition-all duration-300
-          ${isActive ? "font-semibold" : "group-hover:font-medium"}
-        `}
+            text-xs sm:text-base font-medium tracking-wide transition-all duration-300
+            ${isActive ? "font-semibold" : "group-hover:font-medium"}
+          `}
         >
           {tab.label}
         </span>
