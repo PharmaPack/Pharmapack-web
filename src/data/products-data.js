@@ -315,9 +315,9 @@ export const collectionsData = [
             pharmapack: {
               image: "pharmapack-hot-cold-pain-relieving-patches.jpg",
               uniqueFeatures: [
-                "Adjustable temperature therapy",
-                "Reusable design",
-                "Ergonomic fit",
+                "No sticky residue",
+                "Lasts up to 8 hours",
+                "Made from natural extracts",
               ],
             },
             privateLabeling: [
@@ -751,7 +751,7 @@ export const collectionsData = [
               uniqueFeatures: [
                 "Infused with hyaluronic acid",
                 "Promotes radiant skin",
-                "Eco-friendly materials",
+                "Resealable pack containing 3 sheet masks",
               ],
             },
             privateLabeling: [
