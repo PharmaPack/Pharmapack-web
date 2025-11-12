@@ -180,22 +180,21 @@ export const collectionsData = [
             category: "medical",
             indexImage: "massage-cream.jpg",
             keySpecifications: [
-              { spec: "Volume", value: "500ml" },
-              { spec: "Purity", value: "99.9%" },
+              { spec: "Volume", value: "100ml" },
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: [
-              "Provides smooth and gentle glide for therapeutic massage",
+              "Used for cases with muscular stiffness, sprains and bruises",
               "Non-greasy, easily absorbed formula",
               "Suitable for all skin types",
-              "Contains moisturizing agents for skin nourishment",
+              "Contains natural extracts that have both analgesic and rubefacient effects",
             ],
             pharmapack: {
               image: "pharmapack-massage-cream.jpg",
               uniqueFeatures: [
                 "Dermatologically tested for medical and therapeutic use",
                 "Ideal for physiotherapy and muscle relaxation treatments",
-                "Safe for sensitive and baby skin applications",
+                "Safe for sensitive skin",
               ],
             },
           },
@@ -498,8 +497,8 @@ export const collectionsData = [
                   "privatelabeling-makeup-remover-wipes-Starville-2.jpg",
                 ],
                 uniqueFeatures: [
-                  "Custom micellar formula",
-                  "Branded eco-packaging",
+                  "Custom micellar water formula",
+                  "Suitable for all skin types",
                   "Enhanced hydration",
                 ],
               },
@@ -531,7 +530,7 @@ export const collectionsData = [
             indexImage: "mosquito-repellent-wipes.jpg",
             keySpecifications: [
               { spec: "Quantity", value: "As requested per pack" },
-              { spec: "Active Ingredient", value: "DEET 10%" },
+              { spec: "Active Ingredient", value: "DEET FREE" },
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
@@ -689,9 +688,9 @@ export const collectionsData = [
                 clientName: "Bemart",
                 image: "privatelabeling-hand-and-body-wipes-Bemart-1.jpg",
                 uniqueFeatures: [
-                  "Custom aloe vera infusion",
+                  "Custom tea tree oil infusion",
                   "Branded travel packaging",
-                  "Enhanced moisturizing formula",
+                  "Enhanced cleansing and soothing formula",
                 ],
               },
               {
@@ -701,7 +700,7 @@ export const collectionsData = [
                   "privatelabeling-hand-and-body-wipes-Qualita-2.jpg",
                 ],
                 uniqueFeatures: [
-                  "Eco-friendly materials",
+                  "Soft antiseptic wipes",
                   "Premium quality assurance",
                   "Fast production turnaround",
                 ],
@@ -762,7 +761,7 @@ export const collectionsData = [
                 clientName: "Like",
                 image: "privatelabeling-face-sheet-masks-Like-1.jpg",
                 uniqueFeatures: [
-                  "Custom biodegradable fabric",
+                  "Hydrating formula",
                   "Premium quality assurance",
                   "Fast production turnaround",
                 ],
@@ -781,7 +780,7 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: [
-              "Reduces puffiness",
+              "Reduces puffiness and dark circles",
               "Hydrates delicate skin",
               "Easy to apply",
             ],
@@ -802,7 +801,7 @@ export const collectionsData = [
                   "privatelabeling-under-eye-patches-MotherNaked-3.jpg",
                 ],
                 uniqueFeatures: [
-                  "Custom collagen formula",
+                  "Custom depuffing and brightening formulas",
                   "Branded packaging",
                   "Enhanced anti-puffiness",
                 ],
