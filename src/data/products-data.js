@@ -565,7 +565,12 @@ export const collectionsData = [
               { spec: "Material", value: "Non-woven fabric" },
               { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["Acetone-free", "Moisturizing formula", "Easy to use"],
+            features: [
+              "Acetone-free",
+              "Alcohol free",
+              "Moisturizing formula",
+              "Easy to use",
+            ],
             pharmapack: {
               image: "pharmapack-nail-polish-remover-wipes.jpg",
               uniqueFeatures: [
@@ -579,7 +584,11 @@ export const collectionsData = [
                 clientName: "Ciliver",
                 image:
                   "privatelabeling-nail-polish-remover-wipes-Ciliver-1.jpg",
-                uniqueFeatures: ["Rich in natural extracts"],
+                uniqueFeatures: [
+                  "Rich in natural extracts",
+                  "Acetone-free",
+                  "Alcohol free",
+                ],
               },
             ],
           },
@@ -591,16 +600,20 @@ export const collectionsData = [
             indexImage: "alcohol-wipes.jpg",
             keySpecifications: [
               { spec: "Quantity", value: "50 wipes per pack" },
-              { spec: "Alcohol Content", value: "70% isopropyl" },
+              { spec: "Alcohol Content", value: "70% Isopropyl Alcohol" },
               { spec: "Shelf Life", value: "2 years" },
             ],
-            features: ["Quick-drying", "Antimicrobial action", "Portable size"],
+            features: [
+              "Kills 99.99% of germs",
+              "Has both antimicrobial and antiseptic properties",
+              "Portable size",
+            ],
             pharmapack: {
               image: "pharmapack-alcohol-wipes.jpg",
               uniqueFeatures: [
-                "Sterile for hygiene",
-                "Soft non-woven material",
-                "Resealable packaging",
+                "Dermatologically Tested",
+                "Quick and Easy Application",
+                "Effective and fast acting formula",
               ],
             },
           },
@@ -614,21 +627,22 @@ export const collectionsData = [
               { spec: "Quantity", value: "50 wipes per pack" },
               {
                 spec: "Active Ingredient",
-                value: "Benzalkonium Chloride 0.13%",
+                value: "p-Chloro-m-xylenol",
               },
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: [
               "Alcohol-free",
-              "Broad-spectrum antimicrobial",
+              "Broad spectrum antiseptic",
               "Gentle on skin",
+              "Soft germicidal wipes",
             ],
             pharmapack: {
               image: "pharmapack-antiseptic-wipes.jpg",
               uniqueFeatures: [
-                "Safe for frequent use",
-                "Non-irritating formula",
-                "Resealable pack",
+                "Microbiologically and dermatologically tested",
+                "Suitable for skin and surfaces",
+                "Quick action on germs",
               ],
             },
             privateLabeling: [
@@ -671,14 +685,14 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: [
-              "Moisturizing formula",
+              "Cleansing, refreshing and moisturizing formula",
               "Large wipe size",
               "Multi-purpose use",
             ],
             pharmapack: {
               image: "pharmapack-hand-and-body-wipes.jpg",
               uniqueFeatures: [
-                "Infused with aloe vera",
+                "Infused with aloe vera and Vitamin E",
                 "Gentle for all skin types",
                 "Travel-friendly pack",
               ],
@@ -752,9 +766,9 @@ export const collectionsData = [
                   "privatelabeling-face-sheet-masks-MotherNaked-6.jpg",
                 ],
                 uniqueFeatures: [
-                  "Custom hyaluronic acid formula",
-                  "Branded eco-packaging",
-                  "Enhanced skin radiance",
+                  "Enhanced skin glow",
+                  "Nourishing formula",
+                  "Dermatollogically tested",
                 ],
               },
               {
