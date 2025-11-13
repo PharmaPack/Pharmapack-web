@@ -409,7 +409,25 @@ export const collectionsData = [
               "Thicker wipe design",
               "Branded retail packaging",
             ],
+            privateLabeling: [
+              {
+                clientName: "Bebe",
+                image: ["privatelabeling-baby-wipes-bebe-1.jpg"],
+                uniqueFeatures: [],
+              },
+              {
+                clientName: "Wipe it",
+                image: "privatelabeling-baby-wipes-wipe-it-1.jpg",
+                uniqueFeatures: [],
+              },
+              {
+                clientName: "Qualita",
+                image: ["privatelabeling-baby-wipes-qualita-1.jpg"],
+                uniqueFeatures: [],
+              },
+            ],
           },
+
           {
             id: 16,
             slug: "baby-water-wipes",
