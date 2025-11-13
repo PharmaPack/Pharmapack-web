@@ -436,18 +436,18 @@ export const collectionsData = [
             },
             privateLabeling: [
               {
-                clientName: "Tay",
-                image: "privatelabeling-baby-water-wipes-Tay-1.jpg",
+                clientName: "Super Kids",
+                image: "privatelabeling-baby-water-wipes-super-kids-1.jpg",
                 uniqueFeatures: ["Hypoallergenic formula"],
               },
               {
-                clientName: "Amazon",
-                image: "privatelabeling-baby-water-wipes-Amazon-1.jpg",
+                clientName: "Wipe IT",
+                image: "privatelabeling-baby-water-wipes-wipe-it.jpg",
                 uniqueFeatures: ["99.9% Purified water"],
               },
               {
-                clientName: "AmazonA",
-                image: "privatelabeling-baby-water-wipes-AmazonA-1.jpg",
+                clientName: "Water Wipes",
+                image: "privatelabeling-baby-water-wipes-water-wipes.jpg",
                 uniqueFeatures: ["Cleansing and moisturizing formula"],
               },
               {
@@ -505,7 +505,11 @@ export const collectionsData = [
               {
                 clientName: "WipeIt",
                 image: "privatelabeling-makeup-remover-wipes-Wipeit-1.jpg",
-                uniqueFeatures: ["Non-greasy formula"],
+                uniqueFeatures: [
+                  "Non-greasy formula",
+                  "Fragrance free",
+                  "Removes water proof makeup",
+                ],
               },
               {
                 clientName: "Eva",
@@ -550,7 +554,11 @@ export const collectionsData = [
               {
                 clientName: "WipeIt",
                 image: "privatelabeling-mosquito-repellent-wipes-Wipeit-1.jpg",
-                uniqueFeatures: ["Deet free wipes"],
+                uniqueFeatures: [
+                  "Deet free wipes",
+                  "Lasts up to 5 hours",
+                  "Lemon grass scent",
+                ],
               },
             ],
           },
@@ -616,6 +624,17 @@ export const collectionsData = [
                 "Effective and fast acting formula",
               ],
             },
+            privateLabeling: [
+              {
+                clientName: "Egypt Air",
+                image: "privatelabeling-alcohol-wipes.jpg",
+                uniqueFeatures: [
+                  "Kills 99.99% of germs",
+                  "Has both antimicrobial and antiseptic properties",
+                  "Portable size",
+                ],
+              },
+            ],
           },
           {
             id: 21,
