@@ -19,8 +19,8 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "3 years" },
             ],
             features: [
-              "Antibacterial Purity and Safe Hydration",
-              "Meets USP standards",
+              "Safe Hydration",
+              "Purified water is water that has been treated through advanced deionization processes, such as Reverse Osmosis, to remove ions, salts, and unwanted elements.",
               "Convenient packaging",
             ],
             pharmapack: {
@@ -45,7 +45,7 @@ export const collectionsData = [
             ],
             features: [
               "Soothing Protection",
-              "Non-adherent",
+              "Paraffin gauze dressing is a sterile, non-adherent wound dressing impregnated with soft paraffin. It is designed to protect wounds while maintaining a moist healing environment and minimizing trauma during dressing changes.",
               "Promotes healing",
             ],
             pharmapack: {
@@ -59,8 +59,8 @@ export const collectionsData = [
           },
           {
             id: 3,
-            slug: "sea-salt-water",
-            name: "Sea Salt Nasal Spray",
+            slug: "isotonic-hypertonic-nasal-sprays",
+            name: "Isotonic & Hypertonic Nasal Sprays",
             category: "medical",
             indexImage: "sea-salt-water.jpg",
             keySpecifications: [
@@ -69,17 +69,9 @@ export const collectionsData = [
             ],
             features: [
               "Relieves congestion",
-              "Cleanses nasal passages",
+              "Isotonic & Hypertonic nasal sprays are a natural nasal hygiene solution made from purified sea water. It is designed to gently cleanse, moisturize, and protect the nasal passages, supporting healthy breathing for both adults and children.",
               "Multi-purpose use",
             ],
-            /* pharmapack: {
-              image: "pharmapack-sea-salt-water.jpg",
-              uniqueFeatures: [
-                "Suitable for wound irrigation",
-                "Safe for cosmetic applications",
-                "Sterile and preservative-free",
-              ],
-            }, */
           },
           {
             id: 4,
@@ -90,17 +82,13 @@ export const collectionsData = [
             keySpecifications: [
               { spec: "Volume", value: "100ml" },
               { spec: "Material", value: "Water-based gel" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["Non-irritating", "Sterile formula", "Easy application"],
-            /*  pharmapack: {
-              image: "pharmapack-lubricant-gels-medical.jpg",
-              uniqueFeatures: [
-                "Optimized for ultrasound exams",
-                "Hypoallergenic formula",
-                "Non-sticky residue",
-              ],
-            }, */
+            features: [
+              "Non-irritating",
+              "Medical lubricant gel is a water-based lubricant designed to facilitate medical and diagnostic procedures while minimizing patient discomfort. It is widely used in hospitals, clinics, and healthcare facilities.",
+              "Easy application",
+            ],
           },
           {
             id: 5,
@@ -115,7 +103,7 @@ export const collectionsData = [
             ],
             features: [
               "Antiseptic action",
-              "Single-use wipes",
+              "Povidone-iodine wipes are ready-to-use antiseptic wipes impregnated with povidone-iodine, a broad-spectrum antimicrobial agent. They are designed for effective skin disinfection and infection prevention in medical and first-aid settings.",
               "Portable packaging",
             ],
             pharmapack: {
@@ -138,15 +126,11 @@ export const collectionsData = [
               { spec: "Alcohol Content", value: "70% isopropyl" },
               { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["Sterile and sealed", "Quick-drying", "Compact size"],
-            /* pharmapack: {
-              image: "pharmapack-alcohol-swabs.jpg",
-              uniqueFeatures: [
-                "Pre-injection skin prep",
-                "High alcohol purity",
-                "Individually wrapped",
-              ],
-            }, */
+            features: [
+              "Disinfection prior to injections",
+              "Alcohol swabs are single-use antiseptic pads impregnated with isopropyl alcohol. They are designed for rapid and effective skin disinfection prior to medical procedures and injections.",
+              "Compact size",
+            ],
           },
           {
             id: 7,
@@ -161,7 +145,7 @@ export const collectionsData = [
             ],
             features: [
               "3-layer protection",
-              "Breathable material",
+              "The 3-layer protective face mask is designed to provide effective barrier protection while ensuring comfort and breathability. It is suitable for daily use in medical, professional, and public environments.",
               "Comfortable fit",
             ],
             pharmapack: {
@@ -185,7 +169,7 @@ export const collectionsData = [
             ],
             features: [
               "Used for cases with muscular stiffness, sprains and bruises",
-              "Non-greasy, easily absorbed formula",
+              "Just Massage Cream is a combination of natural extracts and oils, which have a counter irritant and rubefacient effect, while menthol causes dilatation of the blood vessels followed by a cold sensation causing an analgesic effect.",
               "Suitable for all skin types",
               "Contains natural extracts that have both analgesic and rubefacient effects",
             ],
@@ -204,8 +188,7 @@ export const collectionsData = [
   },
   {
     title: "Hydrogel Patches",
-    description:
-      "Therapeutic patches designed for pain relief and fever management.",
+    description: "Therapeutic patches designed for pain relief and fever management.",
     subcategories: [
       {
         title: "PharmaPack Products",
@@ -223,7 +206,7 @@ export const collectionsData = [
             ],
             features: [
               "Long-lasting cooling",
-              "Safe for all ages",
+              "Cooling gel patches are macromolecule hydrogel patches containing menthol, designed to provide temporary relief from fever and heat discomfort. They offer a gentle, non-medicated cooling effect suitable for both children and adults.",
               "Comfortable fit",
             ],
             pharmapack: {
@@ -271,8 +254,7 @@ export const collectionsData = [
             ],
             features: [
               "Targeted pain relief",
-              "Macromolecule gel patches",
-              "Cooling sensation",
+              "Cold pain-relieving patches are menthol-infused hydrogel patches designed to provide temporary relief from muscle and joint pain through a cooling effect. They help reduce discomfort, swelling, and soreness.",
               "Flexible material",
             ],
             pharmapack: {
@@ -309,7 +291,7 @@ export const collectionsData = [
             ],
             features: [
               "Dual-action relief",
-              "Flexible application",
+              "Hot & cold pain-relieving patches combine hydrogel technology with active cooling and warming agents to provide dual-action relief for muscle and joint discomfort.",
               "Non-medicated",
             ],
             pharmapack: {
@@ -347,7 +329,11 @@ export const collectionsData = [
               },
               { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["Targeted relief", "Comfortable wear", "Non-irritating"],
+            features: [
+              "Targeted relief",
+              "Period pain relief patches are hydrogel patches designed to provide targeted, temporary relief from menstrual cramps and discomfort. They combine soothing warmth and gentle hydrogel technology to enhance comfort during menstruation.",
+              "Non-irritating",
+            ],
             pharmapack: {
               image: "pharmapack-period-pain-relieving-patches.jpg",
               uniqueFeatures: [
@@ -393,7 +379,7 @@ export const collectionsData = [
             ],
             features: [
               "Microbiologically and dermatologically tested",
-              "Suitable for sensitive skin",
+              "Baby wipes are soft and gentle cleansing cloths specially designed to care for a baby’s delicate skin. They are formulated to be hypoallergenic and alcohol-free, ensuring that even the most sensitive skin is protected from irritation and discomfort.",
               "Alcohol, paraben, and sulfate free",
             ],
             pharmapack: {
@@ -441,7 +427,7 @@ export const collectionsData = [
             ],
             features: [
               "99% purified water",
-              "Gentle on skin",
+              "Baby water wipes are infused with over 99% purified water, making them ideal for newborns and children with extremely sensitive skin. The ultra-pure water-based formula removes dirt and impurities without introducing harmful chemicals or irritants, helping to preserve the natural balance of the skin while minimizing the risk of redness or allergic reactions.",
               "Fragrance-free",
             ],
             pharmapack: {
@@ -496,7 +482,7 @@ export const collectionsData = [
             ],
             features: [
               "Micellar water infused",
-              "Non-irritating",
+              "Makeup remover wipes are designed to provide a fast, convenient, and effective solution for removing all traces of makeup and impurities from the skin. These wipes gently dissolve makeup while hydrating and soothing the skin, leaving it clean and refreshed.",
               "Hydrates skin",
             ],
             pharmapack: {
@@ -557,7 +543,7 @@ export const collectionsData = [
             ],
             features: [
               "Long-lasting protection",
-              "Non-greasy",
+              "Mosquito repellent wipes are convenient, pre-moistened wipes formulated to help protect the skin from mosquito bites and other insect disturbances.",
               "Soft on skin, tough on bugs",
             ],
             pharmapack: {
@@ -593,7 +579,7 @@ export const collectionsData = [
             ],
             features: [
               "Acetone-free",
-              "Alcohol free",
+              "Nail polish remover wipes offer a practical and portable solution for removing nail polish quickly and efficiently, without the need for additional liquids or tools.",
               "Moisturizing formula",
               "Easy to use",
             ],
@@ -631,7 +617,7 @@ export const collectionsData = [
             ],
             features: [
               "Kills 99.99% of germs",
-              "Has both antimicrobial and antiseptic properties",
+              "Alcohol wipes are pre-moistened wipes containing isopropyl alcohol, specially formulated for rapid and effective skin disinfection.",
               "Portable size",
             ],
             pharmapack: {
@@ -670,7 +656,7 @@ export const collectionsData = [
             ],
             features: [
               "Alcohol-free",
-              "Broad spectrum antiseptic",
+              "Antiseptic wipes are ready-to-use cleansing wipes containing broad-spectrum antiseptic agents designed to reduce microbial contamination and prevent infection.",
               "Gentle on skin",
               "Soft germicidal wipes",
             ],
@@ -723,7 +709,7 @@ export const collectionsData = [
             ],
             features: [
               "Cleansing, refreshing and moisturizing formula",
-              "Large wipe size",
+              "Hand and body wipes are soft, moist wipes designed to cleanse, refresh, and hydrate the skin without the need for water. They are suitable for use at home, on-the-go, or during travel, providing an effective solution for maintaining personal hygiene in any situation.",
               "Multi-purpose use",
             ],
             pharmapack: {
@@ -774,12 +760,13 @@ export const collectionsData = [
             category: "personal-care",
             indexImage: "face-sheet-masks.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "5 masks per pack" },
-              { spec: "Material", value: "Biodegradable fabric" },
+              { spec: "Quantity", value: "As requested" },
+              { spec: "Material", value: "Non-woven fabric" },
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: [
               "Hydrating formula",
+              "Face sheet masks are single-use, soft cloth masks infused with nourishing ingredients such as vitamins, antioxidants, and hydrating agents, designed to rejuvenate and revitalize the skin.",
               "Fits all face shapes",
               "Single-use masks",
             ],
@@ -826,13 +813,13 @@ export const collectionsData = [
             category: "personal-care",
             indexImage: "under-eye-patches.jpg",
             keySpecifications: [
-              { spec: "Quantity", value: "10 pairs per pack" },
+              { spec: "Quantity", value: "As requested" },
               { spec: "Material", value: "Hydrogel" },
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: [
               "Reduces puffiness and dark circles",
-              "Hydrates delicate skin",
+              "Under eye patches are soft, hydrating patches infused with ingredients such as hyaluronic acid, collagen, or plant extracts, created to reduce puffiness, dark circles, and signs of fatigue around the delicate under-eye area.",
               "Easy to apply",
             ],
             pharmapack: {
@@ -871,14 +858,6 @@ export const collectionsData = [
               { spec: "Shelf Life", value: "2 years" },
             ],
             features: ["Kills 99.9% of germs", "Non-sticky", "Travel-friendly"],
-            /* pharmapack: {
-              image: "pharmapack-hand-sanitizers.jpg",
-              uniqueFeatures: [
-                "Moisturizing with aloe vera",
-                "Quick-drying formula",
-                "Compact bottle design",
-              ],
-            }, */
           },
           {
             id: 26,
@@ -889,19 +868,13 @@ export const collectionsData = [
             keySpecifications: [
               { spec: "Volume", value: "100ml" },
               { spec: "Material", value: "Water-based gel" },
-              { spec: "Shelf Life", value: "2 years" },
+              { spec: "Shelf Life", value: "3 years" },
             ],
-            features: ["Non-irritating", "Long-lasting", "Easy to apply"],
-            /* 
-              pharmapack: {
-              image: "pharmapack-lubricant-gel.jpg",
-                uniqueFeatures: [
-                  "Hypoallergenic formula",
-                  "Safe for sensitive skin",
-                  "Non-sticky residue"
-                ]
-              }
-            */
+            features: [
+              "Non-irritating",
+              "Personal lubricant gel is a water-based, skin-friendly lubricant designed to provide smooth lubrication and enhanced comfort during everyday personal use. It is suitable for intimate and general skin applications.",
+              "Easy to apply",
+            ],
           },
         ],
       },
