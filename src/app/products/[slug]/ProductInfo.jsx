@@ -328,26 +328,44 @@ const FeatureCard = ({ title, children, className = "" }) => (
 );
 
 // Key Features Component
-const KeyFeatures = ({ features }) => (
-  <FeatureCard title="Key Features">
-    <ul className="space-y-3 sm:space-y-4">
-      {features?.map((feature, index) => (
-        <motion.li
-          key={index}
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: index * 0.1, duration: 0.4 }}
-          className="flex items-start gap-3 sm:gap-4"
-        >
-          <div className="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-brand-red flex-shrink-0 mt-2" />
-          <span className="text-brand-gray text-base sm:text-lg leading-relaxed">
-            {feature}
-          </span>
-        </motion.li>
-      ))}
-    </ul>
-  </FeatureCard>
-);
+const KeyFeatures = ({ features }) => {
+  if (!features || features.length === 0) {
+    return (
+      <FeatureCard title="Key Features">
+        <p className="text-brand-gray">No key features listed.</p>
+      </FeatureCard>
+    );
+  }
+
+  const displayed = [features[0]];
+  if (features.length > 1) {
+    displayed.push(features[features.length - 1]);
+  }
+
+  // Remove duplicate if first and last are the same
+  const uniqueDisplayed = [...new Set(displayed)];
+
+  return (
+    <FeatureCard title="Key Features">
+      <ul className="space-y-3 sm:space-y-4">
+        {uniqueDisplayed.map((feature, index) => (
+          <motion.li
+            key={index}
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: index * 0.1, duration: 0.4 }}
+            className="flex items-start gap-3 sm:gap-4"
+          >
+            <div className="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-brand-red flex-shrink-0 mt-2" />
+            <span className="text-brand-gray text-base sm:text-lg leading-relaxed">
+              {feature}
+            </span>
+          </motion.li>
+        ))}
+      </ul>
+    </FeatureCard>
+  );
+};
 
 // Key Specifications Component
 const KeySpecifications = ({ specifications }) => (
