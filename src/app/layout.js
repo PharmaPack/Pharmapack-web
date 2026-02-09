@@ -21,7 +21,7 @@ const bodyFont = Urbanist({
 
 export const metadata = {
   title: "Pharmapack",
-  description: "Innovative pharmaceutical packaging solutions",
+  description: "Innovative pharmaceutical solutions",
   icons: {
     icon: "/favicon.png",
   },
