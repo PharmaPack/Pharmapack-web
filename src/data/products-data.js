@@ -62,7 +62,7 @@ export const collectionsData = [
             slug: "isotonic-hypertonic-nasal-sprays",
             name: "Isotonic & Hypertonic Nasal Sprays",
             category: "medical",
-            indexImage: "sea-salt-water.jpg",
+            indexImage: "isotonic-hypertonic-nasal-sprays.jpg",
             keySpecifications: [
               { spec: "Active Ingredient", value: "Sodium Chloride 0.9%" },
               { spec: "Shelf Life", value: "3 years" },
